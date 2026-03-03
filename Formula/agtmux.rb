@@ -1,25 +1,25 @@
 class Agtmux < Formula
   desc "Real-time AI agent state monitor for tmux"
   homepage "https://github.com/g960059/agtmux"
-  version "0.1.11"
+  version "0.1.12"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/g960059/agtmux/releases/download/v0.1.11/agtmux-aarch64-apple-darwin.tar.xz"
-      sha256 "bf303429b8d7facf5d8c0c44dfd1d25e2dc709d6b10580db6438105583951f74"
+      url "https://github.com/g960059/agtmux/releases/download/v0.1.12/agtmux-aarch64-apple-darwin.tar.xz"
+      sha256 "d94f25d7736795f4fe8dd31be0c16a433863464c985a2d77b4d7ca2c59f3cde4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/g960059/agtmux/releases/download/v0.1.11/agtmux-x86_64-apple-darwin.tar.xz"
-      sha256 "5dd39fbfc35ed68151719925f90c3ed115c66935c4864e2502f61d5e46783f27"
+      url "https://github.com/g960059/agtmux/releases/download/v0.1.12/agtmux-x86_64-apple-darwin.tar.xz"
+      sha256 "ece93910d195c807661af1e91fc35a26815707c387b0b7a1ac13bfc75eba9347"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/g960059/agtmux/releases/download/v0.1.11/agtmux-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "0a881e0dcaa65eb9155d602d7ca2efe2be2a2ccae10427e9bdbbf1c7f19aeeaa"
+      url "https://github.com/g960059/agtmux/releases/download/v0.1.12/agtmux-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "6cb7862364ff05e2ccdb65b0e4b14c9f012e8dad8c1e9bb47d07c96eb9b03350"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/g960059/agtmux/releases/download/v0.1.11/agtmux-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "e8d80fc5e7f695ad9bd02262e468e6c563f8aec117edddf0320f2fc248e48166"
+      url "https://github.com/g960059/agtmux/releases/download/v0.1.12/agtmux-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "9a628d40b0a1079c2811f059783e41b7a35081c28e9cc84f74a5fce72eff10c0"
     end
   end
   license "MIT"
