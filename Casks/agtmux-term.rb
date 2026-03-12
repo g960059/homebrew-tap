@@ -1,6 +1,6 @@
 cask "agtmux-term" do
-  version "0.1.0"
-  sha256 "c3fef081e9bcd04c486db842fcebdf2cc2cd94734ba596b2cc6d4bc6ceb3d07b"
+  version "0.1.1"
+  sha256 "4fe2780a3e1868992a42cde4713320faf06c30a8ef544b5b46bd02655e8e7de9"
 
   url "https://github.com/g960059/agtmux-term/releases/download/v#{version}/AgtmuxTerm-v#{version}.dmg"
   name "AgtmuxTerm"
